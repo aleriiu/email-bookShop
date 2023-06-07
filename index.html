@@ -2,24 +2,24 @@
     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="https://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
-    xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
+    xmlns:o="urn:schemas-microsoft-com:office:office" lang="ru">
 
 <head>
     <meta http–equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http–equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
 
     <title>Test Email Sample</title>
     <style type="text/css">
-        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap');
 
         table {
             border-spacing: 0;
             mso-cellspacing: 0;
             mso-padding-alt: 0;
         }
-
-
 
         td {
             padding: 0;
@@ -35,10 +35,17 @@
             font-size: 16px;
         }
 
+        @media screen and (max-width: 599.98px) {}
+
         @media screen and (max-width: 399.98px) {
             .mobile-padding {
                 padding-right: 10px !important;
                 padding-left: 10px !important;
+            }
+
+            .mobile-col-padding {
+                padding-right: 0 !important;
+                padding-left: 0 !important;
             }
 
             .two-columns .column {
@@ -51,6 +58,37 @@
                 max-width: 100% !important;
             }
 
+            .three-columns .column {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            .three-columns .column img {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+        }
+
+        /* Custom Dark Mode Colors */
+        :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        }
+
+        @media (prefers-color-scheme: dark) {
+
+            table,
+            td {
+                background-color: #06080B !important;
+            }
+
+            h1,
+            h2,
+            h3,
+            p {
+                color: #FFFFFF !important;
+            }
         }
     </style>
 
@@ -80,42 +118,40 @@
     <![endif]-->
 
 
-    <center style="width: 100%; table-layout: fixed; background-color: #DEFFFD;">
-        <div style="max-width: 865px; background-color: #DEFFFD;">
+    <center
+        style="width: 100%; table-layout: fixed; background-color: #DEFFFD; padding-top: 40px;padding-bottom: 40px;">
+        <div style="max-width: 600px; background-color: #DEFFFD;">
             <!-- Preheader -->
             <div
                 style="font-size: 0px; color: #1C1E23; line-height: 1px; mso-line-height-rule:exactly; display: none; max-width: 0px; max-height: 0px; opacity: 0;overflow: hidden;mso-hide:all;">
                 Good Morning!
             </div>
 
+            <!--End Preheader -->
+
             <!--[if (gte mso 9)|(IE)]>
-            <table width="865" align="center" border="0" cellpadding="0" role="presentation"
+            <table width="600" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
                 style="color:#FFFFFF;"
             <tr>
             <td>
             <![endif]-->
 
             <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
-                style="background: #DEFFFD; font-family: 'Outfit', sans-serif; Margin: 0; padding: 0; width: 100%; max-width: 865px;">
-
-                <!--[if (gte mso 9)|(IE)]>
-                </td>
-                </tr>
-                </table>
-                <![endif]-->
+                style="background-color: #DEFFFD; font-family: 'Outfit', sans-serif; Margin: 0; padding: 0; width: 100%; max-width: 600px;">
 
                 <!--Logo-->
 
                 <tr>
                     <td>
-                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                            class="column">
                             <tr>
-                                <td style="padding: 40px 17px 38px 0;">
+                                <td style="padding: 19px 17px 19px 19px; text-align: center;">
                                     <a href="#" target="_blank"><img src="./images/sun.png" alt="sun-logo" border="0"
-                                            width="90" /></a>
+                                            width="50" /></a>
                                 </td>
                                 <td>
-                                    <h2 style="font-size: 37.13px; font-weight: 500; color: #1C1E23; opacity: 80%;">Good
+                                    <h2 style="font-size: 25px; font-weight: 500; color: #1C1E23; opacity: 80%;">Good
                                         morning !</h2>
                                 </td>
                             </tr>
@@ -127,18 +163,18 @@
 
                 <!--Pic-->
                 <tr style="background: #FFFFFF;">
-                    <td style="padding: 40px 40px 28px 40px;">
-                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
-                            style="background-image: url(./images/mainPix2x.png); background-repeat: no-repeat; background-size: cover; Margin: 0; height: 440px; width: 785px; max-width: 785px; font-family: 'Outfit', sans-serif;">
+                    <td style="padding: 25px 24px 25px 24px;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                            style="background-image: url(./images/mainPix2x.png); background-repeat: no-repeat; background-size: cover; Margin: 0; width: 100%; max-width: 552px;">
                             <tr>
-                                <td style="padding: 219px 339.39px 0 50px;">
+                                <td style="padding: 219px 39.39px 0 50px;">
                                     <p style="margin: 0; font-size: 27.13px; color: #FFFFFF; font-weight: 500;">
                                         Hello
                                         Hamza,</p>
                                 </td>
                             </tr>
                             <tr>
-                                <td style="padding: 0 339.39px 50px 50px;">
+                                <td style="padding: 0 39.39px 50px 50px;">
                                     <p style="margin: 0; font-size: 33.13px; color: #FFFFFF; font-weight: 400;">Your
                                         monthly newspaper is here !</p>
                                 </td>
@@ -152,7 +188,7 @@
                 <!--Blocks-->
 
                 <tr style="background: #FFFFFF;">
-                    <td style="padding: 0 40.15px 28px 40px; font-size: 0;" class="two-columns mobile-padding">
+                    <td style="padding: 0 24px 28px 24px; font-size: 0;" class="two-columns mobile-padding">
 
                         <!--[if (gte mso 9)|(IE)]>
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
@@ -160,35 +196,22 @@
                         <td>
                         <![endif]-->
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                            style="vertical-align: top; width: 100%; max-width: 367.42px; display: inline-block;"
+                            style="vertical-align: top; width: 100%; max-width: 276px; display: inline-block;"
                             class="column">
                             <tr>
-                                <td class="mobile-col-padding">
-                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+                                <td style="padding: 32px 8px 16px 8px;" class="mobile-col-padding">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                        style="text-align: left;">
                                         <tr>
-                                            <td style="padding: 28px 25px 16px 0;">
-                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                                    style="vertical-align: middle; width: 100%; max-width: 367.42px; display: inline-block;"
-                                                    class="column">
-                                                    <tr>
-                                                        <td style="background: #FCDAE8;">
-                                                            <table border="0" cellpadding="0" cellspacing="0"
-                                                                role="presentation">
-                                                                <tr>
-                                                                    <td><img src="./images/two-people.png" alt="youtube"
-                                                                            border="0" width="367.42"
-                                                                            style="max-width: 367.42px;" /></td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
+                                            <td style="padding: 0 0 9px 0;">
+                                                <img src="./images/twoPeople2x.png" alt="People" border="0" width="260"
+                                                    style="max-width: 260px;" />
                                             </td>
                                         </tr>
                                         <tr>
                                             <td style="padding: 0 34.42px 8px 10px;">
                                                 <h3
-                                                    style="color: #1C1E23; font-size: 27.13px; font-weight: 500; opacity: 80%; margin: 0;">
+                                                    style="color: #1C1E23; font-size: 20px; font-weight: 500; opacity: 80%; margin: 0;">
                                                     Your monthly newspaper is here !</h3>
                                             </td>
                                         </tr>
@@ -204,9 +227,9 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="padding: 0 34.42px 8px 10px;">
+                                            <td style="padding: 0 14px 8px 10px;">
                                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                                    style="vertical-align: middle; width: 100%; max-width: 76px; display: inline-block;"
+                                                    style="vertical-align: middle; width: 100%; max-width: 56px; display: inline-block;"
                                                     class="column">
                                                     <tr>
                                                         <td style="padding: 20px 24px 28px 0;">
@@ -217,7 +240,7 @@
                                                                                 src="./images/border-radius.png"
                                                                                 alt="people John Dee" border="0"
                                                                                 width="49px"
-                                                                                style="max-width: 76px;" /></a></td>
+                                                                                style="max-width: 56px;" /></a></td>
                                                                 </tr>
                                                             </table>
                                                         </td>
@@ -260,40 +283,27 @@
                           </td><td>
                         <![endif]-->
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                            style="vertical-align: top; width: 100%; max-width: 367.42px; display: inline-block;"
+                            style="vertical-align: top; width: 100%; max-width: 276px; display: inline-block;"
                             class="column">
                             <tr>
-                                <td class="mobile-col-padding">
-                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+                                <td style="padding: 32px 8px 16px 8px;" class="mobile-col-padding">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                        style="text-align: left;">
                                         <tr>
-                                            <td style="padding: 28px 40.15px 16px 50px;">
-                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                                    style="vertical-align: middle; width: 100%; max-width: 367.42px; display: inline-block;"
-                                                    class="column">
-                                                    <tr>
-                                                        <td style="background: #FCDAE8;">
-                                                            <table border="0" cellpadding="0" cellspacing="0"
-                                                                role="presentation">
-                                                                <tr>
-                                                                    <td><img src="./images/two-people.png" alt="youtube"
-                                                                            border="0" width="367.42"
-                                                                            style="max-width: 367.42px;" /></td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
+                                            <td style="padding: 0 0 9px 0;">
+                                                <img src="./images/twoPeople2x.png" alt="People" border="0" width="260"
+                                                    style="max-width: 260px;" />
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="padding: 0 72.58px 8px 60px;">
+                                            <td style="padding: 0 34.42px 8px 10px;">
                                                 <h3
-                                                    style="color: #1C1E23; font-size: 27.13px; font-weight: 500; opacity: 80%; margin: 0;">
+                                                    style="color: #1C1E23; font-size: 20px; font-weight: 500; opacity: 80%; margin: 0;">
                                                     Your monthly newspaper is here !</h3>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="padding: 0 72.58px 8px 60px;">
+                                            <td style="padding: 0 34.42px 8px 10px;">
                                                 <p
                                                     style="margin: 0; font-size: 16px; font-weight: 400; color: #1C1E23; opacity: 60%;">
                                                     In publishing and graphic
@@ -304,9 +314,9 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="padding: 0 72.58px 8px 60px;">
+                                            <td style="padding: 0 14px 8px 10px;">
                                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                                    style="vertical-align: middle; width: 100%; max-width: 76px; display: inline-block;"
+                                                    style="vertical-align: middle; width: 100%; max-width: 56px; display: inline-block;"
                                                     class="column">
                                                     <tr>
                                                         <td style="padding: 20px 24px 28px 0;">
@@ -317,7 +327,7 @@
                                                                                 src="./images/border-radius.png"
                                                                                 alt="people John Dee" border="0"
                                                                                 width="49px"
-                                                                                style="max-width: 76px;" /></a></td>
+                                                                                style="max-width: 56px;" /></a></td>
                                                                 </tr>
                                                             </table>
                                                         </td>
@@ -371,7 +381,7 @@
                                 <td style="padding: 0 0 21.5px 40px;">
                                     <img src="./images/photo.png" alt="icon-photo" />
                                 </td>
-                                <td style="padding: 0 634px 21px 9px;">
+                                <td style="padding: 0 10px 21px 9px;">
                                     <p style="margin: 0; font-size: 20px; color: #1C1E23; font-weight: 500;">Photo
                                         gallery</p>
                                 </td>
@@ -383,37 +393,50 @@
                 <!--End Blocks-->
 
                 <tr style="background: #FFFFFF;">
-                    <td style="padding: 0 40px 40px 40px;">
+                    <td style="padding: 0 14px 25px 24px;" class="three-columns mobile-padding">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                        <tr>
+                        <td>
+                        <![endif]-->
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                            style="vertical-align: middle; width: 100%; max-width: 378.72px; display: inline-block;"
+                            style="vertical-align: middle; width: 100%; max-width: 276px; display: inline-block;"
                             class="column">
                             <tr>
-                                <td style="padding-right: 27.56px;">
-                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+                                <td style="padding: 32px 8px 16px 8px;" class="mobile-col-padding">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                        style="text-align: left;">
                                         <tr>
-                                            <td><a href="#" target="_blank"><img src="./images/greece2x.png"
-                                                        alt="youtube" border="0" width="378.72"
-                                                        style="max-width: 378.72px;" /></a></td>
+                                            <td><img src="./images/greece2x.png" alt="Greece" border="0" width="260"
+                                                    style="max-width: 260px;" style="max-width: 378.72px;" /></td>
                                         </tr>
                                     </table>
                                 </td>
                             </tr>
                         </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td><td>
+                        <![endif]-->
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                            style="vertical-align: middle; width: 100%; max-width: 378.72px; display: inline-block;"
+                            style="vertical-align: middle; width: 100%; max-width: 276px; display: inline-block;"
                             class="column">
                             <tr>
-                                <td style="padding-left: 27.56px;">
-                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+                                <td style="padding: 32px 8px 16px 8px;" class="mobile-col-padding">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                        style="text-align: left;">
                                         <tr>
-                                            <td><a href="#" target="_blank"><img src="./images/greece2x.png"
-                                                        alt="youtube" border="0" width="378.72"
-                                                        style="max-width: 378.72px;" /></a></td>
+                                            <td><img src="./images/greece2x.png" alt="Greece" border="0" width="260"
+                                                    style="max-width: 260px;" style="max-width: 378.72px;" /></td>
                                         </tr>
                                     </table>
                                 </td>
                             </tr>
                         </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
                     </td>
                 </tr>
                 <!--Footer-->
@@ -421,15 +444,15 @@
                     <td>
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
                             <tr>
-                                <td style="padding: 71.5px 259px 14px 259px;">
+                                <td style="padding: 40px 109px 14px 109px;">
                                     <p
-                                        style="text-align: center; margin: 0; font-weight: 400; font-size: 16px; color: #1C1E23;">
+                                        style="text-align: center; margin: 0; font-weight: 400; font-size: 16px; color: #1C1E23; opacity: 80%;">
                                         You are receiving this email because you filled in your email in our website.
                                         you can unsubscribe in any moment.</p>
                                 </td>
                             </tr>
                             <tr>
-                                <td align="center" style="padding: 14px 200px 110.81px 200px; font-size: 0;"
+                                <td align="center" style="padding: 14px 20px 110.81px 20px; font-size: 0;"
                                     class="fourth-columns mobile-padding">
                                     <!--[if (gte mso 9)|(IE)]>
                                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
@@ -437,10 +460,10 @@
                                 <td>
                                 <![endif]-->
                                     <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                        style="vertical-align: middle; width: 100%; max-width: 76px; display: inline-block;"
+                                        style="vertical-align: middle; width: 100%; max-width: 56px; display: inline-block;"
                                         class="column">
                                         <tr>
-                                            <td style="padding: 26px 26px 26px 26px;">
+                                            <td style="padding: 16px 16px 16px 16px;">
                                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation">
                                                     <tr>
                                                         <td><a href="#" target="_blank"><img src="./images/twitter.png"
@@ -455,10 +478,10 @@
                                 </td><td>
                                 <![endif]-->
                                     <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                        style="vertical-align: middle; width: 100%; max-width: 76px; display: inline-block;"
+                                        style="vertical-align: middle; width: 100%; max-width: 56px; display: inline-block;"
                                         class="column">
                                         <tr>
-                                            <td style="padding: 26px 26px 26px 26px;">
+                                            <td style="padding: 16px 16px 16px 16px;">
                                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation">
                                                     <tr>
                                                         <td><a href="#" target="_blank"><img src="./images/insta.png"
@@ -473,10 +496,10 @@
                                 </td><td>
                                 <![endif]-->
                                     <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                        style="vertical-align: middle; width: 100%; max-width: 76px; display: inline-block;"
+                                        style="vertical-align: middle; width: 100%; max-width: 56px; display: inline-block;"
                                         class="column">
                                         <tr>
-                                            <td style="padding: 26px 26px 26px 26px;">
+                                            <td style="padding: 16px 16px 16px 16px;">
                                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation">
                                                     <tr>
                                                         <td><a href="#" target="_blank"><img src="./images/youtube.png"
@@ -491,10 +514,10 @@
                                 </td><td>
                                 <![endif]-->
                                     <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                        style="vertical-align: middle; width: 100%; max-width: 76px; display: inline-block;"
+                                        style="vertical-align: middle; width: 100%; max-width: 56px; display: inline-block;"
                                         class="column">
                                         <tr>
-                                            <td style="padding: 26px 26px 26px 26px;">
+                                            <td style="padding: 16px 16px 16px 16px;">
                                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation">
                                                     <tr>
                                                         <td><a href="#" target="_blank"><img src="./images/ball.png"
@@ -509,10 +532,10 @@
                                 </td><td>
                                 <![endif]-->
                                     <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                        style="vertical-align: middle; width: 100%; max-width: 76px; display: inline-block;"
+                                        style="vertical-align: middle; width: 100%; max-width: 56px; display: inline-block;"
                                         class="column">
                                         <tr>
-                                            <td style="padding: 26px 26px 26px 26px;">
+                                            <td style="padding: 16px 16px 16px 16px;">
                                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation">
                                                     <tr>
                                                         <td><a href="#" target="_blank"><img src="./images/in.png"
